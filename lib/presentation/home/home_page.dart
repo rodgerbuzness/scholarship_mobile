@@ -48,44 +48,60 @@ class _HomePageState extends State<HomePage> {
             title: Text(
               "Opportunities",
               style: TextStyle(
-                  color: _selectedIndex == 0 ? Colors.blue : Colors.grey),
+                  color: _selectedIndex == 0
+                      ? Theme.of(context).primaryColor
+                      : Colors.grey),
             ),
             icon: Icon(
               Icons.home,
-              color: _selectedIndex == 0 ? Colors.blue : Colors.grey,
+              color: _selectedIndex == 0
+                  ? Theme.of(context).primaryColor
+                  : Colors.grey,
             ),
           ),
           BottomNavigationBarItem(
             title: Text(
               "Forum",
               style: TextStyle(
-                  color: _selectedIndex == 1 ? Colors.blue : Colors.grey),
+                  color: _selectedIndex == 1
+                      ? Theme.of(context).primaryColor
+                      : Colors.grey),
             ),
             icon: Icon(
               Icons.chat,
-              color: _selectedIndex == 1 ? Colors.blue : Colors.grey,
+              color: _selectedIndex == 1
+                  ? Theme.of(context).primaryColor
+                  : Colors.grey,
             ),
           ),
           BottomNavigationBarItem(
             title: Text(
               "Faorities",
               style: TextStyle(
-                  color: _selectedIndex == 2 ? Colors.blue : Colors.grey),
+                  color: _selectedIndex == 2
+                      ? Theme.of(context).primaryColor
+                      : Colors.grey),
             ),
             icon: Icon(
               Icons.favorite,
-              color: _selectedIndex == 2 ? Colors.blue : Colors.grey,
+              color: _selectedIndex == 2
+                  ? Theme.of(context).primaryColor
+                  : Colors.grey,
             ),
           ),
           BottomNavigationBarItem(
             title: Text(
               "Account",
               style: TextStyle(
-                  color: _selectedIndex == 3 ? Colors.blue : Colors.grey),
+                  color: _selectedIndex == 3
+                      ? Theme.of(context).primaryColor
+                      : Colors.grey),
             ),
             icon: Icon(
               Icons.person,
-              color: _selectedIndex == 3 ? Colors.blue : Colors.grey,
+              color: _selectedIndex == 3
+                  ? Theme.of(context).primaryColor
+                  : Colors.grey,
             ),
           )
         ],
